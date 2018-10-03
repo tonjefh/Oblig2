@@ -1,0 +1,164 @@
+ 
+body{
+     display: grid;
+     max-width: 1000px;
+     margin: 0 auto;
+     grid-template-columns: 1fr 1fr; /*hvor mange koloner*/
+     grid-template-rows: ; /* hvor mange rader*/
+     grid-template-areas:"header header"
+                         "nav nav"
+                         "main aside"
+                         "footer footer";
+    /*background-color: #EEAC56;*/
+    grid-gap: 2em;
+    
+   
+}
+
+ header{
+     grid-area:header; 
+     background-image: url("bilde1.jpg");
+     background-size: cover;
+     height: 590px;
+     text-align: center;
+     
+     
+  
+     
+}
+
+
+
+/* MENU*/
+
+nav{
+     grid-area: nav;
+     text-align: center;
+     background-color: #FF92C2;
+     padding: 1em;
+     
+     
+    
+}
+
+
+nav a{
+     text-decoration: none;
+     font-size: 35px;
+     padding: 1em ;
+     color: black;
+     text-align: center;
+      
+    
+}
+ 
+
+main {
+     display: flex;
+     flex-direction: column;
+     
+     grid-area: main;
+     width: 600px;
+
+     
+}
+
+/*Hovedside*/ 
+
+.flexboks{
+  max-width:600px ;
+  background:#F9A03F;
+  margin-bottom: 1em;
+  padding: 10px;
+
+}
+ 
+.flexboks h2{
+    text-align: center;
+
+}
+
+.flexboks img{
+    width: 200px;
+    float: left;
+    padding: 10px;
+
+    
+}
+
+/* artikkelsider */
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.flexboks2 {
+    
+
+    
+    width: 1000px;
+    background: #F9A03F;
+    font-size: 20px;
+
+    
+    
+}
+
+
+
+.flexboks2 img {
+  width: 250px;
+  margin: 10px;
+  float: left;
+  
+  
+  
+  
+}
+ 
+/* div*/ 
+ p {
+    line-height: 20px;
+    margin: 40px;
+    
+}
+
+.underoverskrift {
+    text-align: center;
+}
+
+.knapp{
+    background-color: #FF92C2;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+/*sidepanel*/
+aside{
+     display: flex;
+     flex-direction: column;
+     grid-area: aside;
+     width: 400px;
+     
+    
+
+} 
+
+section{
+    background-color: #F9A03F;
+    margin-bottom: 1em;
+    padding: 10px;
+    
+}
+section h2{
+    text-align: center;
+}
+
+
+footer{
+    grid-area: footer;
+    background-color: #FF92C2;;
+   margin-bottom: 2em;
+   
+}
+

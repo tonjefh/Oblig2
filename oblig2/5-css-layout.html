@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang=nn>
+<head>
+    <meta charset="utf-8" />
+    <title> Oppgave 5 </title>
+    <link rel="stylesheet" type="text/css" media="screen" href="stilark.css" />
+    <link rel="stylesheet" href="print.css" media="print">
+</head>
+<body>
+     <header>
+         <h1>Webutvikling 2018</h1>
+     </header>
+     <nav>
+         <a href="index.html">Hjem</a>
+             
+         <a href="3-git-github.html">Git/Github</a>
+             
+         <a href="4-media-typer.html">Media Typer</a>
+             
+         <a href="5-css-layout.html">CSS Layouts</a>
+     </nav>   
+     <main class="container">
+         <article class="flexboks2">
+             <h2 class="underoverskrift">CSS Layout</h2>
+             <p> 
+                 Er oppsettsteknikker  som gjør det mulig å kontrollere posisjonen til elementene
+                 på en nettside. I denne artikkelen skal jeg snakke om et par av disse teknikkene. 
+             </p>
+             
+             <h3 class="underoverskrift">CSS Floating</h3>
+             <figure>
+                 <img src="bildefloat.jpg" alt="eksempe på floating">
+                 <figcaption></figcaption>
+             </figure>
+             <p>
+                 Var før den eneste tilgjengelige verktøyet for css-layout. Her angir vi ikke eksakte
+                 posisjoner men hvordan elementene skal flyte i forhold til hverandre. Disse teknikkene
+                 fungere men er ganske begrensede i forhold til de andre metodene som flex og grid som gjør det lettere å stile en hel side.
+             </p>
+             
+             <h3 class="underoverskrift">CSS Flexboks</h3>
+             <figure>
+                 <img src="bildeflex.jpg" alt="eksempel på flexboks">
+                 <figcaption></figcaption>
+             </figure>
+             <p>
+                 Er en posisjoneringsteknikk som håndterer skalering av nettsiden til ulike  skjermstørrelser
+                 og medier på en god måte. Det vil si gjør det enkelt å legge ting ut i en dimensjon enten det er rad eller
+                 kolonne. Elementer bøyes for å fylle ekstraplass eller krype for å passe inn i mindre mellomrom. Ved å sette display:flex;
+                 til det overordnet elementet i elementene du vil legge ut, blir alle barn deretter fleksible gjenstander.
+             </p>
+             
+             <h3 class="underoverskrift"> Grid</h3>
+             <figure>
+                     <img src="gridbilde.jpg" alt="eksempel på grid">
+                     <figcaption></figcaption>
+             </figure>
+             <p>
+                 Er designet for to dimensjonal layout av elementer på nettside eller en applikasjon.
+                 Det er et rutenett som har en samling av horisontale og vertikale linjer ( dvs både rader og koloner)
+                 der man kan plassere elementene hvor man vil ha dem. Noe som gjør det lettere å designe websider. Prinsippet her
+                 er det samme som flex, velger man at verdien skal være grid, vil barne elementene plassere seg likt.
+             </p>
+         </article> 
+    </main>
+     <footer>
+         <p>Tonje Haugvaldstad, tonje.haugvalstad@hotmail.com </p>
+     </footer>
+</body>
+</html>

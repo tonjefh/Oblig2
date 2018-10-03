@@ -1,0 +1,25 @@
+
+body{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+ width: 200px;
+}
+
+nav{ 
+    display: none;
+}
+
+aside{
+    display: none;
+}
+
+
+.knapp{
+    display: none;
+}
+
+footer{
+    display: none;
+}
